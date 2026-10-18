@@ -1,0 +1,7 @@
+aws_region    = "ap-south-1"
+project_name  = "cicd-pipeline"
+environment   = "dev"
+github_repo   = "iamharry-dev/terraform-aws-cicd-pipeline"
+instance_type = "t3.micro"
+app_port      = 8000
+ssh_cidr      = "0.0.0.0/0"
